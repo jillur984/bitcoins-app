@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import Circle from "./Circle";
-import Team from "./Team";
+
 
 const Tokenomics = () => {
   return (

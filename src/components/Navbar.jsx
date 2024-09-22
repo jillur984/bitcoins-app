@@ -3,7 +3,7 @@ import { Fragment } from "react";
 const Navbar = () => {
   return (
     <Fragment>
-      <nav className="w-full fixed sm:flex-row h-[px] px-14 py-2 md:flex justify-between items-center border-b-[1px] border-gray-300 shadow-customBlue opacity-100">
+      <nav className="bg-white z-50 w-full fixed sm:flex-row h-[px] px-14 py-2 md:flex justify-between items-center border-b-[1px] border-gray-300 shadow-customBlue opacity-100">
         <p className="text-lg font-semibold text-blue-800 hidden md:block">
           KOIN<span className="text-yellow-600">%</span>
           <span className="text-black align-super text-sm">TM</span>
