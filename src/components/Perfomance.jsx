@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import PolyGon from "../assets/PolyGon 2.svg";
+
 
 const Performance = () => {
   return (
@@ -20,11 +20,7 @@ const Performance = () => {
           <div className="flex items-center justify-center">
             <div className="h-1 w-full bg-gradient-to-r from-orange-500 to-yellow-500 shadow-lg relative">
               {/* Polygon centered */}
-              <img
-                src={PolyGon}
-                alt="polygon"
-                className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-              />
+             
               {/* Value below the Polygon */}
               <div className="absolute left-1/2 transform -translate-x-1/2 mt-2 text-center">
                 <span className="text-lg font-semibold">$48,637.83</span>
