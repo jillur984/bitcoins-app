@@ -34,9 +34,14 @@ const BitCoinCard = () => {
           </div>
         </div>
       </div>
-     
+      
+      {/* New Passage Section */}
+      <div className="mt-8">
+        <p className="text-black text-base">
+        Fermentum hendrerit imperdiet nulla viverra faucibus. Sit aliquam massa vel convallis duis ac. Mi adipiscing semper scelerisque porttitor pulvinar nunc risus. Fermentum potenti iaculis lacinia congue ipsum fames amet dui. Purus ultrices tincidunt volutpat in eget. Ullamcorper du
+        </p>
+      </div>
     </Fragment>
-    
   );
 };
 

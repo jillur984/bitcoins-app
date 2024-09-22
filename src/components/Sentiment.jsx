@@ -8,7 +8,7 @@ const Sentiment = () => {
       <h2>Key Events</h2>
       <div className="flex gap-4 ">
         {/* Card 1 */}
-        <div className="w-[456px] h-[250px] justify-center p-[18px] pb-[38px] bg-gray-100 rounded-lg flex">
+        <div className=" md:w-[456px] h-[250px] justify-center p-[18px] pb-[38px] bg-gray-100 rounded-lg flex">
           <img
             src={SentimentIcon}
             alt="Sentiment Icon"

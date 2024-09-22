@@ -4,7 +4,7 @@ import BitCoinCard from "./BitCoinCard";
 const About = () => {
   return (
     <Fragment>
-     <div className="w-[830px] h-[995px]">
+     <div className="w-[830px] h-[800px]">
      <h1 className="text-2xl font-black">About Bitcoin</h1>
       <h1 className="mt-2">What is Bitcoin ?</h1>
       <p className="text-justify">

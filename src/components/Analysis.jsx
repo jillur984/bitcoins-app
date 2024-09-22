@@ -3,7 +3,7 @@ import { Fragment } from "react";
 const Analysis = () => {
   return (
     <Fragment>
-      <div>
+      <div className="md:mt-36 sm:mt-16">
         <h1 className="text-2xl">Analyst Estimate</h1>
       </div>
       <div className="w-[710px] h-[186px] flex items-center">

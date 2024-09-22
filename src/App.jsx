@@ -7,24 +7,34 @@ import Sentiment from "./components/Sentiment"
 import Analysis from "./components/Analysis"
 import About from "./components/About"
 import Tokenomics from "./components/Tokenomics"
+import Team from "./components/Team"
+import Summarybar from "./components/Summarybar"
+import PriceCard from "./components/PriceCard"
+
 
 
 const App = () => {
   return (
     <Fragment>
-      <div>
+      
       <Navbar/>
-      </div>
-      <div className="ml-8 w-full md:w-1/2 lg:w-[1328px] h-auto lg:h-[4399px] top-[132px] left-[56px] gap-5 opacity-100 font-inter ">
+     
+      <div className="ml-8 md:w-1/2 w-[1328px] h-[4399px] top-[132px] left-[56px] gap-5 opacity-100 font-inter ">
       
       <PriceChart/>
+     
+      <Summarybar />
+     
       <Perfomance/>
       <Fundamentals/>
       <Sentiment/>
       <Analysis/>
       <About/>
       <Tokenomics/>
+      <Team/>
       </div>
+      
+     
     </Fragment>
   )
 }
