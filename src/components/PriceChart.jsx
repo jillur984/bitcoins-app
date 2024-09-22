@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import BitcoinImage from "../assets/image bitcoin.png";
-import PolyGon from "../assets/PolyGon 2.svg";
+import PolyGon from '../assets/Polygon 2.svg'
 import Chart from "./Chart";
 
 
