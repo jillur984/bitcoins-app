@@ -4,10 +4,10 @@ import BitCoinCard from "./BitCoinCard";
 const About = () => {
   return (
     <Fragment>
-     <div className="w-[830px] h-[800px]">
+     <div className="max-w-[830px]">
      <h1 className="text-2xl font-black">About Bitcoin</h1>
-      <h1 className="mt-2">What is Bitcoin ?</h1>
-      <p className="text-justify">
+      <h1 className="mt-2 font-bold">What is Bitcoin ?</h1>
+      <p className="md:text-justify">
         Bitcoin’s price today is US$16,951.82, with a 24-hour trading volume of
         $19.14 B. BTC is +0.36% in the last 24 hours. It is currently -7.70%
         from its 7-day all-time high of $18,366.66, and 3.40% from its 7-day
@@ -34,7 +34,7 @@ const About = () => {
         lacinia congue ipsum fames amet dui. Purus ultrices tincidunt volutpat
         in eget. Ullamcorper dui
       </p>
-      <p className="font-bold mt-4">Already Holding Bitcoin ?</p>
+      <p className="font-bold mt-4 mb-4">Already Holding Bitcoin ?</p>
       <BitCoinCard/>
      </div>
     </Fragment>

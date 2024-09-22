@@ -1,12 +1,11 @@
-
-import TestChart from "./TestChart"
+import TestChart from "./TestChart";
 
 const PriceChart = () => {
   return (
     <>
-    <div className="max-w-[837px] max-h-460px mb-10">
-    <div className="flex justify-between flex-row">
-      <h2>BitCoin Price Chart</h2>
+      <div className="max-w-[837px] max-h-460px mb-10">
+        <div className="flex justify-between flex-row">
+          <h2>BitCoin Price Chart</h2>
           <ul className="flex gap-3">
             <li>1H</li>
             <li>24H</li>
@@ -17,20 +16,16 @@ const PriceChart = () => {
             <li>1Y</li>
             <li>All</li>
           </ul>
-      </div>  
-      <div>
-        <div>
-        <TestChart/>
-
         </div>
         <div>
-          
+          <div>
+            <TestChart />
+          </div>
+          <div></div>
         </div>
       </div>
-    </div>
-    
     </>
-  )
-}
+  );
+};
 
-export default PriceChart
+export default PriceChart;
