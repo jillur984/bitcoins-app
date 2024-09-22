@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import BitcoinImage from "../assets/image bitcoin.png";
-import PolyGon from '../assets/Polygon 2.svg'
+
 import Chart from "./Chart";
 
 
@@ -26,7 +26,7 @@ const PriceChart = () => {
         </div>
         <div className="flex items-center space-x-2 border border-gray-200 rounded-md shadow-sm">
           <div className="flex items-center ">
-            <img src={PolyGon} alt="polygon" className="mr-2" />
+         
             <span className="text-lg font-semibold text-green-400 ">2.51%</span>
           </div>
           
